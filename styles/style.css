@@ -1,5 +1,17 @@
 @import "./normalize.css";
+@import "./fonts.css"
 
 * {
   box-sizing: border-box;
+}
+
+.wrapper {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #E5E5E5;
 }
