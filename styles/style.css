@@ -17,6 +17,11 @@ body {
   /*background-color: #EFEFEF;*/
 }
 
+body p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .top-line-background {
   background-color: #EFEFEF;
 }
@@ -180,8 +185,9 @@ body {
   padding: 35px 0px;
 }
 
-.communication-links {
-  
+.communications img {
+  vertical-align: middle;
+  text-align: center;
 }
 
 .communication-link {
@@ -195,4 +201,13 @@ body {
 
 .communication-link:last-of-type {
   margin-right: 0;
+}
+
+.copyright {
+  font-size: 12px;
+  line-height: 14px;
+  color: #828282;
+  padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
 }
