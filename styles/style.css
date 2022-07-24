@@ -25,7 +25,7 @@ body {
   text-align: center;
   font-size: 0;
   padding-top: 17px;
-  padding-bottom: 16px;
+  padding-bottom: 17px;
 }
 
 .top-line-navigation a {
@@ -67,10 +67,15 @@ body {
 }
 
 .logo-block {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
+}
+
+.logo img {
+  width: 258px;
+  height: 80px;
 }
 
 .tel-block {
@@ -115,12 +120,15 @@ body {
   line-height: 16px;
 }
 
+.button:hover {
+  cursor: pointer;
+}
+
 .border-button {
   background-color: #fff;
   border: 2px solid #F13C6E;
   border-radius: 40px;
   color: #000;
-  padding: 11px 27px;
 }
 
 .inverse-border-button {
@@ -128,5 +136,10 @@ body {
   border: 2px solid #fff;
   border-radius: 40px;
   color: #fff;
-  padding: 11px 27px;
+}
+
+.long-button {
+  width: 170px;
+  padding-top: 10px;
+  padding-bottom: 11px;
 }
