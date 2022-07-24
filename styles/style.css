@@ -173,3 +173,26 @@ body {
   text-decoration: none;
   color: #828282;
 }
+
+.communications {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 0px;
+}
+
+.communication-links {
+  
+}
+
+.communication-link {
+  width: 45px;
+  height: 45px;
+  background-color: #fff;
+  border: 2px solid #F13C6E;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.communication-link:last-of-type {
+  margin-right: 0;
+}
