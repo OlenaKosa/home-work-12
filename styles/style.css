@@ -1,5 +1,5 @@
 @import "./normalize.css";
-@import "./fonts.css"
+@import "./fonts.css";
 
 * {
   box-sizing: border-box;
@@ -15,3 +15,21 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #E5E5E5;
 }
+
+.top-navigation {
+  text-align: center;
+  font-size: 0;
+}
+
+.top-navigation a {
+  font-size: 14px;
+  line-height: 16px;
+  margin-right: 30px;
+  text-decoration: none;
+  color: #333333;
+}
+
+.top-navigation a:last-of-type {
+  margin-right: 0px;
+}
+
