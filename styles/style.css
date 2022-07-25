@@ -211,3 +211,8 @@ body p {
   display: flex;
   justify-content: space-between;
 }
+
+.copyright a {
+  text-decoration: none;
+  color: #828282;
+}
