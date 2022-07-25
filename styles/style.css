@@ -49,3 +49,7 @@ body p {
   text-decoration: none;
   color: #000;
 }
+
+.no-wrap {
+  white-space: nowrap;
+}
