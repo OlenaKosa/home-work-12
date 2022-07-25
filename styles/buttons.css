@@ -40,3 +40,8 @@
   border: none;
   background: none;
 }
+
+.inverse-block .inverse-border-button {
+  height: 35px;
+  padding: 7.5px 0;
+}

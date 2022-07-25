@@ -53,6 +53,7 @@ main {
 .inverse-blocks {
   display: flex;
   justify-content: space-between;
+  align-items: stretch;
   padding: 100px 0;
 }
 
@@ -62,6 +63,7 @@ main {
   background-color: #F13C6E;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   color: #FFF;
 }
 
@@ -75,6 +77,8 @@ main {
 }
 
 .inverse-block-text {
+  font-size: 14px;
+  line-height: 20px;
   margin-top: 0;
   /* margin-bottom: 25px;*/
   margin-bottom: 22px;
@@ -101,3 +105,16 @@ main {
 #email::placeholder {
   text-align: center; 
 }
+
+.mail-block {
+  width: 250px;
+}
+
+.delivery-block {
+  width: 170px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
