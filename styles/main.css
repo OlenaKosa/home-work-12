@@ -49,3 +49,55 @@ main {
   /* margin-bottom: 20px; */
   margin-bottom: 18px;
 }
+
+.inverse-blocks {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+
+.inverse-block {
+  width: 540px;
+  padding: 35px 45px 35px 40px;
+  background-color: #F13C6E;
+  display: flex;
+  justify-content: space-between;
+  color: #FFF;
+}
+
+.inverse-block-caption {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 0;
+  /* margin-bottom: 25px; */
+  margin-bottom: 20.5px;
+}
+
+.inverse-block-text {
+  margin-top: 0;
+  /* margin-bottom: 25px;*/
+  margin-bottom: 22px;
+}
+
+#mail {
+  width: 140px;
+  height: 108px;
+}
+
+#delivery {
+  width: 189px;
+  height: 100px;
+}
+
+#email {
+  width: 225px;
+  height: 35px;
+  border-radius: 30px;
+  border: none;
+  text-align: center;
+}
+
+#email::placeholder {
+  text-align: center; 
+}
