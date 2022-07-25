@@ -24,6 +24,14 @@
 
 .long-button {
   width: 170px;
-  padding-top: 10px;
-  padding-bottom: 11px;
+  padding: 10px 0;
+}
+
+.fill-button {
+  background-color: #F13C6E;
+  border: 2px solid #F13C6E;
+  border-radius: 30px;
+  color: #fff;
+  width: 130px;
+  padding: 8px 0;
 }

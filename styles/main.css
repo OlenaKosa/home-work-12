@@ -1,0 +1,51 @@
+main {
+  padding-bottom: 81px;
+}
+
+.goods-cards-caption {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  /* padding-top: 80px; */
+  padding-top: 78px;
+  /* padding-bottom: 38px; */
+  padding-bottom: 36px;
+}
+
+.goods-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goods-card {
+  background-color: #FFF;
+  width: 255px;
+  text-align: center;
+  padding: 25px 30px;
+}
+
+.goods-card img {
+  width: 135px;
+  height: 166px;
+  /* margin-bottom: 20px; */
+  margin-bottom: 17px;
+}
+
+.goods-card .description {
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  /* margin-bottom: 20px; */
+  margin-bottom: 15px;
+}
+
+.goods-card .price {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  color: #000;
+  /* margin-bottom: 20px; */
+  margin-bottom: 18px;
+}
