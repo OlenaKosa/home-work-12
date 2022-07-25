@@ -1,5 +1,5 @@
 main {
-  padding-bottom: 81px;
+  padding-bottom: 80px;
 }
 
 .goods-cards-caption {
@@ -16,6 +16,7 @@ main {
 
 .goods-cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -118,3 +119,23 @@ main {
   white-space: nowrap;
 }
 
+.impuls-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 0;
+  gap: 1px;
+}
+
+.impuls {
+  width: 276px;
+  height: 119px;
+  background-color: #FFF;
+  padding: 35px 69px 35px 60px;
+}
+
+.impuls img {
+  width: 149px;
+  height: 49px;
+}
