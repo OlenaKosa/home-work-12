@@ -18,6 +18,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 30px;
 }
 
 .goods-card {
@@ -68,6 +69,13 @@ main {
   color: #FFF;
 }
 
+.inverse-block .block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
 .inverse-block-caption {
   font-weight: 700;
   font-size: 18px;
@@ -115,7 +123,7 @@ main {
   width: 170px;
 }
 
-.nowrap {
+.no-wrap {
   white-space: nowrap;
 }
 
