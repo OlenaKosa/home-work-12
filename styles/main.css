@@ -8,10 +8,8 @@ main {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
-  /* padding-top: 80px; */
-  padding-top: 78px;
-  /* padding-bottom: 38px; */
-  padding-bottom: 36px;
+  padding-top: 80px;
+  padding-bottom: 39px;
 }
 
 .goods-cards {
@@ -29,18 +27,16 @@ main {
 }
 
 .goods-card img {
-  width: 135px;
+  width: 125px;
   height: 166px;
-  /* margin-bottom: 20px; */
-  margin-bottom: 17px;
+  margin-bottom: 14px;
 }
 
 .goods-card .description {
   font-size: 14px;
   line-height: 20px;
   color: #333333;
-  /* margin-bottom: 20px; */
-  margin-bottom: 15px;
+  margin-bottom: 14px;
 }
 
 .goods-card .price {
@@ -48,8 +44,7 @@ main {
   font-size: 21px;
   line-height: 25px;
   color: #000;
-  /* margin-bottom: 20px; */
-  margin-bottom: 18px;
+  margin-bottom: 16px;
 }
 
 .inverse-blocks {
@@ -81,16 +76,14 @@ main {
   font-size: 18px;
   line-height: 21px;
   margin-top: 0;
-  /* margin-bottom: 25px; */
-  margin-bottom: 20.5px;
+  margin-bottom: 18px;
 }
 
 .inverse-block-text {
   font-size: 14px;
   line-height: 20px;
   margin-top: 0;
-  /* margin-bottom: 25px;*/
-  margin-bottom: 22px;
+  margin-bottom: 26px;
 }
 
 #mail {
