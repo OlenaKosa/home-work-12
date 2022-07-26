@@ -129,10 +129,15 @@ main {
   width: 276px;
   height: 119px;
   background-color: #FFF;
-  padding: 35px 69px 35px 60px;
+  /* padding: 35px 69px 35px 60px; */
 }
 
 .impuls img {
   width: 149px;
   height: 49px;
+}
+
+.impuls-link {
+  padding: 35px 64.5px;
+  display: inline-block;
 }

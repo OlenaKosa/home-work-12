@@ -26,6 +26,10 @@ body p {
   margin-bottom: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 .top-line-navigation-background {
   background-color: #EFEFEF;
 }
@@ -46,10 +50,13 @@ body p {
 
 .tel {
   margin-right: 40px;
-  text-decoration: none;
   color: #000;
 }
 
 .no-wrap {
   white-space: nowrap;
+}
+
+.inline-block {
+  display: inline-block;
 }
