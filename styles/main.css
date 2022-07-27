@@ -43,6 +43,7 @@ main {
   font-weight: 500;
   font-size: 21px;
   line-height: 25px;
+  letter-spacing: 0.05em;
   color: #000;
   margin-bottom: 16px;
 }

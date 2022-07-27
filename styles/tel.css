@@ -1,0 +1,10 @@
+.tel-block {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.tel {
+  margin-right: 40px;
+  color: #000;
+}
