@@ -51,6 +51,7 @@
   background-image: url("../images/header.png");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   object-fit: cover;
   color: #fff;
   display: flex;
