@@ -46,11 +46,12 @@
 }
 
 .super-chair {
-  height: 604px;
+  padding: 191px 0;
   background-color: #F13C6E;
   background-image: url("../images/header.png");
   background-repeat: no-repeat;
   background-position: center;
+  object-fit: cover;
   color: #fff;
   display: flex;
   align-items: center;
